@@ -7,6 +7,12 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column();
+    return Column(
+      children: [
+        AppBar(
+          title: const Text('Welcome'),
+        )
+      ],
+    );
   }
 }
