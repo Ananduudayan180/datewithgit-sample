@@ -11,6 +11,11 @@ class HomeScreen extends StatelessWidget {
       children: [
         AppBar(
           title: const Text('Welcome'),
+        ),
+        Scaffold(
+          body: Column(
+            children: const [Text('In your Dream app')],
+          ),
         )
       ],
     );
