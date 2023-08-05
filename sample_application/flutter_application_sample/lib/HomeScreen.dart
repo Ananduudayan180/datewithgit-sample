@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
         ),
         Scaffold(
           body: Column(
-            children: const [Text('In your Dream app')],
+            children: const [Text('In your Dream app'), Icon(Icons.delete)],
           ),
         )
       ],
