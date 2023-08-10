@@ -18,7 +18,8 @@ class HomeScreen extends StatelessWidget {
               Text('In your Dream app'),
               Icon(Icons.delete),
               Icon(Icons.add_location),
-              Icon(Icons.alarm)
+              Icon(Icons.alarm),
+              Icon(Icons.car_crash),
             ],
           ),
         )
